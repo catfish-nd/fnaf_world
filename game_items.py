@@ -33,7 +33,7 @@ class Tree(GameItem):
 
 class Flower(GameItem):
     def __init__(S, pos, step, mode):
-        super().__init__(pos, step, step, 0.7, True, False, 'flower')
+        super().__init__(pos, step, step, 0.7, False, False, 'flower')
         S.mode = mode
 
 class Stump(GameItem):

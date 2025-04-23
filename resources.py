@@ -55,7 +55,9 @@ class Resources:
         'shoot_snd': {
             'fire': 'shoot.ogg'
             },
-        'exit': 'pointer.png'
+        'exit': 'pointer.png',
+        'battle_bgs': ['plains_battle_bg.png', 'logs_battle_bg.png', 'snowy_battle_bg.png'],
+        'battle_music_pack': ['regular_battle_music.ogg'],
 
 
     }

@@ -46,11 +46,6 @@ while app.is_run:
         app.game.action()
         app.game.update()
 
-        # label_lives.setText(app.texts['lives'] + str(app.rules.lives))
-        # label_lives.update()
-        # label_bonus.setText(bonuses.mode_message)
-        # label_bonus.update()
-
     elif app.game.mode == 1:
         app.game.screen.fill(app.colors['back_win'])
         label_win.update()
